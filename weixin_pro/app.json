@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/discover/discover",
+    "pages/setting/setting",
+    "pages/details/details"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "剧迷社",
+    "backgroundColor": "#EE4805",
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": "50",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#8bc34a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/1.png",
+        "selectedIconPath": "img/2.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "img/1.png",
+        "selectedIconPath": "img/2.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "img/1.png",
+        "selectedIconPath": "img/2.png"
+      }
+    ]
+  }
+}

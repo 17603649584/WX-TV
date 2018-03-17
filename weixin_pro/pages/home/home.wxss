@@ -1,0 +1,23 @@
+/* pages/home/home.wxss */
+page{
+  background:lightcoral;
+}
+.top{
+  width:175px;
+  height:40px;
+  text-align:center;
+  padding-top:60px;
+  font-size:24px;
+  margin:0 auto;
+}
+.box{
+  line-height:80px;
+  padding-top:70px;
+}
+.sbox{
+   width:200px;
+   margin:15px auto;
+   border:3px solid #ddd;
+   text-align:center;
+   font-size:24px;
+}

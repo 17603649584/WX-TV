@@ -1,0 +1,4 @@
+/* pages/discover/discover.wxss */
+page{
+  background:green;
+}

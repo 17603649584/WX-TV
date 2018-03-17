@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+
+  <view class="top">请选择难易程度</view>
+  <view class="box" bindtap="boxAction">
+      <view class="sbox" 
+            catchtap="sboxAction" 
+            wx:for="{{listData}}" 
+            wx:key="{{index}}"
+            catchtap="itemClick"
+            data-title="{{item}}"
+            data-id="{{index}}"
+      >
+      <navigator
+        url="/pages/details/details"
+      >
+          {{item}}
+      </navigator>    
+      </view>     
+  </view>
